@@ -94,3 +94,30 @@ p {
         font-size: 1.5em;
     }     
 }
+
+@media screen and (max-width:767px) {
+  /* RESPONSIVE DESIGN-MOBILE VIEW(767px) */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+    body{
+    background-color: green;
+    }
+
+
+    .box-1, .box-2, .box-3 {
+        width: 100%;
+    }
+
+    .box-2 {
+        width: 100%;
+    }
+
+    .box-3 {
+        width: 100%;
+    }
+
+}
+   
+    
