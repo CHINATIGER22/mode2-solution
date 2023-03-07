@@ -72,17 +72,13 @@ p {
 
 /* RESPONSIVE DESIGN-TABLET VEIW(768px & 991px) */
 @media screen and (max-width:991px) {
-    body{
-        background-color: blue;
-    }
-    
     .boxes{ 
         gap: 30px;
         padding: 3% 3% 3%;
     }
     
     .box-1,.box-2 {
-        width: 48%;
+        width: 46%;
     }
 
     .box-3 {
@@ -95,29 +91,20 @@ p {
     }     
 }
 
+
+
+
+
+/* RESPONSIVE DESIGN-MOBILE VIEW(767px) */
 @media screen and (max-width:767px) {
-  /* RESPONSIVE DESIGN-MOBILE VIEW(767px) */
-  [class*="col-"] {
-    width: 100%;
-  }
-
-    body{
-    background-color: green;
+    .boxes { 
+        display: flex;
+        flex-direction: row;
     }
-
 
     .box-1, .box-2, .box-3 {
         width: 100%;
     }
-
-    .box-2 {
-        width: 100%;
-    }
-
-    .box-3 {
-        width: 100%;
-    }
-
 }
    
     
