@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+h1{
+    margin: 30px;
+    text-align: center;
+
+}
+
+.boxes{ 
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box-1,.box-2,.box-3 {
+    background-color:gray;
+    width: 30%;
+    border: 2px solid black;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    padding: 3% 4%;
+    font-size: 1.2em;
+}
+
+.box-1header{
+    background-color:palevioletred ;
+    width: 150px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: auto;
+    font-weight:bolder;
+    padding: 1.2% 0;
+}
+
+.box-2header{
+    background-color: red;
+    width: 150px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: auto;
+    color: white;
+    font-weight:bolder;
+    padding: 1.2% 0;
+}
+
+.box-3header{
+    background-color: palegoldenrod;
+    width: 150px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: auto;
+    font-weight:bolder;
+    padding: 1.2% 0;
+}
+
+
+
+
+/* RESPONSIVE DESIGN-TABLET VEIW(768px & 991px) */
+@media screen and (max-width:991px) {
+    .boxes{ 
+        gap: 30px;
+        padding: 3% 3% 3%;
+    }
+    
+    .box-1,.box-2 {
+        width: 46%;
+    }
+
+    .box-3 {
+        width: 100%;
+    }
+
+    .box-3 p{
+        padding: 2%;
+        font-size: 1.5em;
+    }     
+}
+
+
+
+
+
+/* RESPONSIVE DESIGN-MOBILE VIEW(767px) */
+@media screen and (max-width:767px) {
+    .boxes { 
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box-1, .box-2, .box-3 {
+        width: 100%;
+    }
+}
+   
+    
